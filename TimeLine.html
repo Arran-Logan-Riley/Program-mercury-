@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">                    
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta charset='utf-8'>
+            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+            <script src='main.js'></script>
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html" > Home</a></li>
+                <li><a href="Topics.html"> Topic</a></li>
+                <li><a href="" class="active"> TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <h1>Mercury program timeline</h1>
+    </section>
+
+        <div class="timeline">
+            <div class="timeBoxContain conLeft">
+                <div class="content">
+                    <h2>5th MAY 1961</h2>
+                    <p  class = "timelineTextColors">On the 5th of may 1961 at 14:34 UTC the spacecraft named freedom 7 lifted off launch pad LC-5 with astronaut Allen 
+                      Shepard on bored. Allen Shepard was the second person to leave the earth in a sub orbital test reaching an apogee of 
+                      101 nautical miles, well above the carman line at 62 miles.</p>
+                    </p>
+                </div>
+            </div>
+            <div class="timeBoxContain conRight">
+                <div class="content">
+                  <h2>21st Jul 1961</h2>
+                  <p  class = "timelineTextColors">On July 21st, 1961 at 12:20 UTC astronaut Gus Grissom left launch pad LC-5 on a Redstone rocket aboard the spacecraft 
+                    Liberty Bell 7. This mission was similar to Allen shepherds’ mission in its goals. This mission proved useful as when 
+                    the spacecraft landed in the Atlantic Ocean, upon landing the emergency hatch blew open causing the capsule to sink, 
+                    no one was hurt in the accident but forced a redesign of the hatch was conducted</p>
+                </div>
+            </div>
+            <div class="timeBoxContain conLeft">
+                <div class="content">
+                  <h2>20th Feb 1962</h2>
+                  <p  class = "timelineTextColors">On February 20th, 1962 at 14:47 UTC launching from the new launch pad LC-14 astronaut john glen became the first 
+                    American to orbit the earth aboard the spacecraft friendship 7, launched on a new rocked, the Atlas LV-3B this gave 
+                    the spacecraft enough speed to reach orbital velocity. John glen completed three orbits before landing in the Atlantic
+                     Ocean safely.  </p>
+                </div>
+            </div>
+            <div class="timeBoxContain conRight">
+                <div class="content">
+                  <h2>24th May 1962</h2>
+                  <p  class = "timelineTextColors">On the 24th of May 1962 astronaut Scott Carpenter became the sixth human to orbit the earth aboard an Atlas LV-3B rocket 
+                    in his spacecraft Aurora 7. Scott Carpenter became the second American to orbit the earth. The aim of the mission was 
+                    to examine the affects micro gravity had on liquids. The second goal of the mission was to conduct photography from space. 
+                    The last goal was to see if flares could be seen from space, which they could not. Scott Carpenter landed in Atlantic safely. </p>
+                </div>
+            </div>
+            <div class="timeBoxContain conLeft">
+                <div class="content">
+                  <h2>3rd Oct 1962</h2>
+                  <p class = "timelineTextColors">On the 3rd of October 1962 at 12:15 UTC astronaut Wally Schirra and his spacecraft sigma 7 launched from LC-14 aboard an Atlas 
+                    LV-3B 113-D into orbit. During this flight a lot of tests were conducted, and a lot of systems were tested. The capsule encountered 
+                    a large amount of issues during the flight, but none of these issues were mission critical. The flight lasted six orbits with Wally 
+                    Schirra finishing his mission as he landed in the Pacific Ocean.  </p>
+                </div>
+            </div>
+            <div class="timeBoxContain conRight">
+                <div class="content">
+                  <h2>15th May 1963</h2>
+                  <p class="timelineTextColors">On the 15th May 1963 astronaut Gordon Cooper launched from LC-14 aboard his spacecraft faith 7 launched from an Atlas LV-3B 130-D. 
+                    The mission went smoothly and broke many records for human space flight. Gordon cooper conducted a wide range of experiments while 
+                    in orbit. Gordon cooper was in orbit for thirty-four hours covering 878,971 kilometres in twenty orbits. This mission was the last
+                     of the mercury program and lead the way to the Gemini program. </p>
+                </div>
+            </div>
+            </div>
+
+    <section class="credits">
+            <p class="credits">website made by Arran Logan-Riley. Contact: <br> <a href="plazmapie335@gmail.com">Email</a> </p> 
+            <body id="body" class="dark-mode">
+                 
+                <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+        </section>
+    </body>
+</html>

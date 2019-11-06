@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html" > Home</a></li>
+                <li><a href="Topics.html"class="active"> Topic</a></li>
+                <li><a href="TimeLine.html" > TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                 </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <div class="row no-gutters">
+            <div class="col no-gutters">
+                <div class="leftside">
+                    <img src="images/Mr-3-patch-small.gif" alt="image_not_found" style="width:100px;height:100px;"> <!--mission patch[0]-->                    
+                    <h2>Freedom 7</h2>                    
+                    <p>On the 5th of May 1961 at 14:34 UTC a Redstone MRLV MR-7 rocket lifted off from a launch pad at Cape Canaveral LC-5. 
+                        This was the first flight of the human part of the human flight program. abord was astronaut john glen who was the 
+                        first American to fly above the Kármán line.</p>
+                        <h4>The flight</h4>
+
+                    <p>It is estimated 45 million people watched the launch live as john glen lifted off the launch pad, After lift-off, the
+                         rocket accelerated slowly off the launch pad. As the rocket burned its flue it got lighter and the acceleration started 
+                         to climb, at its max point, the spacecraft was pulling 6.3g. The max speed of the spacecraft was 8,340 km/h at a max 
+                         altitude of 187.5 km, far above the Kármán line. After reaching apogee john glen took control of the spacecraft and flew
+                          it through re-entry until the automatic system took over. The spacecraft pulled 11.6g during re-entry. The parachute was 
+                          deployed at 6.4km slowing the spacecraft down until is spaced down in the ocean in good condition.  </p>
+                          <h4>Mission objectives</h4>
+                          <p>
+                            The main mission objects were to test critical systems of the spacecraft.  The first objective was to test the RCS 
+                            (reaction control system) while in space. This went well as the tasks were conducted successfully. The second task 
+                            was to look out the periscope of the spacecraft and record what he saw, he noted continents, lakes and rivers however 
+                            noting that it was hard to identify cities. However, the last task was to change the filter on the periscope, this task 
+                            was unsuccessful as his hand didn’t fit as it got very close to the launch escape system lever. 
+                          </p>
+                </div>
+
+            </div>
+            <div class="col no-gutters">
+                <div class="rightside">
+                    <h3 class="timelineTextColors">Flight one</h3>
+                    <iframe width="725" height="550" class="vid" src="https://www.youtube-nocookie.com/embed/Vm9ez-6Njgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    </body>
+</html>

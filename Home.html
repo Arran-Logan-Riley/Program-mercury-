@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="" class="active"> Home</a></li>
+                <li><a href="Topics.html"> Topic</a></li>
+                <li><a href="TimeLine.html"> TimeLine</a></li>
+                <!---setting-->
+                    <div class="search-container">
+                     <!--<form action="/action_page.php">--> 
+                        <input type="text" placeholder="Search.." name="search">
+                        <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                    </div>
+                  </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <br>
+    <section>
+        <h1>project mercury</h1>
+    </section>
+    <section>
+        <div class="row no-gutters">
+
+            <div class="col no-gutters">
+
+                <div class="leftside">
+                    <p>The mercury program was a space program ran by the United states of America. This program was run
+                        under NASA from 1963 to
+                        1967. The mercury program consisted of six manned missions, with seven astronauts, these
+                        astronauts are known as the mercury
+                        seven as there were seven astronauts, but only six flew as Deke Slayton was diagnosed with a
+                        heart problem and could not fly.
+                        <br> <br>
+                        The main aim for the mercury program was to get a man into earth orbit and return him safely
+                        this program also developed hardware for
+                        the Apollo missions to the moon and prepare for a maned moon landing
+                        and start the maned exploration of the last frontier. The program was a great success with vital
+                        technologies being proved on the
+                        ground and in flight, these would prove to be essential for the further development of the
+                        Gemini, Apollo and the STS program.
+                        <br> <br>
+                        During the program there were two sub orbital flights and four orbital flights. Each flight
+                        analysed different
+                        aspects of space flight and gathered a significant amount of data about space flight and our own
+                        understanding
+                        of space itself and how to operate effectively in it.
+                    </p>
+                </div>
+            </div>
+            <div class="col no-gutters">
+
+                <div class="rightside">
+                    <!DOCTYPE html>
+                    <html>
+
+                    <head>
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                            * {
+                                box-sizing: border-box;
+                            }
+
+                            body {
+                                font-family: Verdana, sans-serif;
+                            }
+
+                            .mySlides {
+                                display: none;
+                            }
+
+                            img {
+                                vertical-align: middle;
+                            }
+
+                            /* Slideshow container */
+                            .slideshow-container {
+                                max-width: 1000px;
+                                position: relative;
+                                margin: auto;
+                            }
+
+                            /* Caption text */
+                            .text {
+                                color: #f2f2f2;
+                                font-size: 15px;
+                                padding: 8px 12px;
+                                position: absolute;
+                                bottom: 8px;
+                                width: 100%;
+                                text-align: center;
+                            }
+
+                            /* Number text (1/3 etc) */
+                            .numbertext {
+                                color: #f2f2f2;
+                                font-size: 12px;
+                                padding: 8px 12px;
+                                position: absolute;
+                                top: 0;
+                            }
+
+                            /* The dots/bullets/indicators */
+                            .dot {
+                                height: 15px;
+                                width: 15px;
+                                margin: 0 2px;
+                                background-color: #bbb;
+                                border-radius: 50%;
+                                display: inline-block;
+                                transition: background-color 0.6s ease;
+                            }
+
+                            .active {
+                                background-color: #717171;
+                            }
+
+                            /* Fading animation */
+                            .fade {
+                                -webkit-animation-name: fade;
+                                -webkit-animation-duration: 10s;
+                                animation-name: fade;
+                                animation-duration: 10s;
+                            }
+
+                            @-webkit-keyframes fade {
+                                from {
+                                    opacity: .4
+                                }
+
+                                to {
+                                    opacity: 1
+                                }
+                            }
+
+                            @keyframes fade {
+                                from {
+                                    opacity: .4
+                                }
+
+                                to {
+                                    opacity: 1
+                                }
+                            }
+
+                            /* On smaller screens, decrease text size */
+                            @media only screen and (max-width: 300px) {
+                                .text {
+                                    font-size: 11px
+                                }
+                            }
+                        </style>
+                    </head>
+
+                    <body>
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                                <img class="vid" src="images/35216272123_3e8d00f100_o.jpg" style="width:100%" height=400px>
+
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img class="vid" src="images/gemini.jpg" style="width:100%" height=400px>
+
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img class="vid" src="images/images.jpg" style="width:100%" height=400px>
+
+                            </div>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+
+                        <script>
+                            var slideIndex = 0;
+                            showSlides();
+
+                            function showSlides() {
+                                var i;
+                                var slides = document.getElementsByClassName("mySlides");
+                                var dots = document.getElementsByClassName("dot");
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                slideIndex++;
+                                if (slideIndex > slides.length) { slideIndex = 1 }
+                                for (i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" active", "");
+                                }
+                                slides[slideIndex - 1].style.display = "block";
+                                dots[slideIndex - 1].className += " active";
+                                setTimeout(showSlides, 8000); // Change image every 2 seconds
+                            }
+                        </script>
+
+                    </body>
+
+                    </html>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="credits">
+        <p class="credits">website made by Arran Logan-Riley. Contact: <br> <a href="mailto:plazmapie335@gmail.com">Email</a>  </p> 
+        <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html" > Home</a></li>
+                <li><a href="Topics.html"class="active"> Topic</a></li>
+                <li><a href="TimeLine.html" > TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                 </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section>
+            <div class="row no-gutters">
+                <div class="col no-gutters">
+                    <div class="leftside">
+                        <img src="images/Mercury_4_-_Patch.png" alt="image_not_found" style="width:100px;height:100px;"> <!--mission patch[1]-->                    
+                        <h2>Liberty bell 7</h2>                    
+                        <p>On July 21st, 1961 at 12:20 UTC astronaut Gus Grissom left launch pad LC-5 on a Redstone MRLV MR-8 rocket. This
+                             mission was to be the second mission in the mercury program. This mission was a suborbital mission reaching an 
+                             apogee of 190 km. This mission did not run smoothly as there were some technical faults.  </p>
+                            <h4>The flight</h4>
+                            <p>
+                                The flight started smoothly as the spacecraft accelerated more and more as it sped through the atmosphere.
+                                 During the flight, Gus Grissom noted that he did feel scared during accent, but after the rocket's systems 
+                                 worked well, he felt more comfortable in the spacecraft abilities. During the high g load of the near end 
+                                 of the flight, Gus Grissom notes that the intense vibrations altered his vision, although it did not interrupt 
+                                 the flight. The spacecraft accelerated to 2000m/s before the engine cutoff. After cutting off the spacecraft 
+                                 separated, and Gus Grisom took control before re-entry occurred. With liberty bell reaching an altitude of 190km, 
+                                 3km above John glen. The re-entry went well until the main cute opened as Gus Gissum noted two small holes in the 
+                                 parachute, this did not cause any issues in the flight plan except for the dumping of the capsule’s fuels, as this
+                                 may be a risk. 
+                            </p>
+    
+                              <h4>Anomalies </h4>
+                              <p>
+                                    After splash down Gus recorded the cockpits data, after this task was executed, he preceded to lay back in his
+                                     seat, unexcitedly the hatch blew open and caused the capsule to fill up with salt water. Gus Grissom left 
+                                     the capsule and was rescued by the waiting helicopter as his capsule sank to the sea floor. 
+                              </p>
+                    </div>
+    
+                </div>
+                <div class="col no-gutters">
+                    <div class="rightside">
+                        <h3 class="timelineTextColors">Flight two</h3>
+                        <iframe width="725" height="550" class="vid" src="https://www.youtube.com/embed/fGxa5DAiC28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    </body>
+</html>

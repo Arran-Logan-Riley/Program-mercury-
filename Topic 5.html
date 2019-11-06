@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html" > Home</a></li>
+                <li><a href="Topics.html"class="active"> Topic</a></li>
+                <li><a href="TimeLine.html" > TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                 </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section>
+            <div class="row no-gutters">
+                <div class="col no-gutters">
+                    <div class="leftside">
+                        <img src="images/Mercury-8-patch.png" alt="image_not_found" style="width:100px;height:100px;"> <!--mission patch[1]-->                    
+                        <h2>Sigma 7</h2>                    
+                        <p>On October 3, 1962, 12:15:12 UTC lifted off with astronaut Wally Schirra aboard an Atlas rocket in the spaceship Sigma 7. 
+                         </p>
+                            <h4>The flight</h4>
+                            <p>
+                                The flight went well, although there was a slight rotation at launch, it was in safe limits. During MEKO(main 
+                                engine cut-off) the engine cut off two seconds early and let the sustainer engine to make up for the lost velocity
+                                 and correcting the rotation. The re-entry of the spacecraft went well, except for low fuel, which caused some 
+                                 issues, but nothing major. 
+                            </p>
+    
+                              <h4>Mission objects </h4>
+                              <p>
+                                One objective was to test the manual control, this proved to be a lot less effective as the fly-by-wire system was 
+                                a lot better. During his second orbit he powered down the spacecraft and conducted experiments on his spatial 
+                                awareness. The next task was for him to conduct earth observations, which he conducted. His next task to execute
+                                 was to locate the satellite echo 1, this was unsuccessful. He was supposed to locate a high-power light in Africa,
+                                  this proved difficult due to could cover. During his sixth orbit, he would prepare for re-entry. 
+                              </p>
+                    </div>
+    
+                </div>
+                <div class="col no-gutters">
+                    <div class="rightside">
+                        <h3 class="timelineTextColors">Flight Five</h3>
+                        <iframe width="725" height="550" class="vid" src="https://www.youtube.com/embed/Mi_YvbdrU4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    </body>
+</html>

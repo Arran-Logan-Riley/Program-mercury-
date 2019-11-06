@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html" > Home</a></li>
+                <li><a href="Topics.html"class="active"> Topic</a></li>
+                <li><a href="TimeLine.html" > TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                 </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <div class="row no-gutters">
+            <div class="col no-gutters">
+                <div class="leftside">
+                    <img src="images/Mercury_6_-_Patch.jpg" alt="image_not_found" style="width:100px;height:100px;"> <!--mission patch[1]-->                    
+                    <h2>Friendship 7</h2>                    
+                    <p>On February 20, 1962, 14:47:39 UTC a newly upgraded Atlas LV-3B 109-D lifted off from its newly built launch pad in Cape Canaveral. This flight 
+                        was carrying astronaut John Glen aboard the spaceship friendship 7. This flight was to be the first orbital launch of an American into space.   </p>
+                        <h4>The flight</h4>
+                        <p>
+                                After many delays after problems with the rockets fuel tanks and weather, on February the 20th the rocket still faced a half an hour 
+                                issues with a faulty component in the guidance system, this was not the last of the issues as one bolt out of the 70 bolts that secured 
+                                the capsules door had to be replaced, which took another 42 minutes. After this issue, a liquid oxygen value had to be replaced, which 
+                                took a further 25 minutes. the rocket finally took off in foggy weather this proved hard to film as the rocket launched from the pad.
+                                 Since this rocket was bigger than the smaller Redstone, it accelerated a bit slower, so the g’s went as harsh due to the size of the 
+                                 rocket, during max q john glen noted that it was very bumpy. After two minutes and fourteen seconds, the booster dropped away, and the 
+                                 capsule flew into orbit. The booster had performed its job as well. The flight went well as John Glen entered orbit of earth. The
+                                  spacecraft gain a roll as it did its prograde burn, but this was corrected by the RCS.  
+                        </p>
+
+                        During his first orbit, he ran into issues with the RCS thrusters, this was fixed by switching to the fly by wire, which corrected the faulty
+                         thruster. During the second orbit it was noted that a sensor was sending reading that the heat shield and landing bag was not connected to the 
+                         spacecraft, this would turn out to be a faulty sensor. John Glen noted that his suit temperature felt warm, for the rest of the flight he would
+                          have to monitor the humidity and temperature, so he did not overheat. During his second orbit, glen was to try and spot flares, it turned out 
+                          he could not see them. After this a fuel light came on, this meant John Glen had to conserve his fuel. Re-entry had issues. 
+                          <p>
+                            
+                          </p>
+                </div>
+
+            </div>
+            <div class="col no-gutters">
+                <div class="rightside">
+                    <h3 class="timelineTextColors">Flight three</h3>
+                    <iframe width="725" height="550" class="vid" src="https://www.youtube.com/embed/RdEQycBo1Oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    </body>
+</html>

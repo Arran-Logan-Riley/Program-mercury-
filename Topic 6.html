@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html" > Home</a></li>
+                <li><a href="Topics.html" class="active"> Topic</a></li>
+                <li><a href="TimeLine.html" > TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                 </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <div class="row no-gutters">
+            <div class="col no-gutters">
+                <div class="leftside">
+                    <img src="images/Mercury_9_-_Patch.png" alt="image_not_found" style="width:100px;height:100px;"> <!--mission patch[1]-->                    
+                    <h2>Faith 7</h2>                    
+                    <p> On May 15, 1963, 13:04:13 UTC astronaut Gordon Cooper launched into orbit for what was to be the last flight of the Mercury
+                         program. This flight would be the longest and most difficult mission attempted by NASA. This mission would break multiple 
+                         records and prove the reliability of the mercury program, getting NASA ready for the next generation of spacecraft, the 
+                         Gemini program. 
+                     </p>
+                        <h4>The flight</h4>
+                        <p>
+                            The launch into orbit went well, with no notable events occurring. After re-entry which went smoothly, he returned 
+                            safely and well. 
+                        </p>
+
+                          <h4>Mission objects </h4>
+                          <p>
+                            On his second orbit, he was to conduct an experiment on his ability to spot a small ball with little lights on it
+                             that were ejected from the nose cone of the ship. On the orbit the ball was jettisoned he noted that he couldn't
+                              see it, but after another orbit e noted that he could see the balls lights.<img src="images/Steel ball.PNG" alt="Image_not_found" height="400" width="700"> Cooper tried to launch a small nitrogen 
+                              balloon out of the spacecraft but failed to do so. Cooper's next task was to set up cameras, this was successful. 
+                              Cooper then set up radiation experiments to test the levels of radiation in space. When the spacecraft flew over Asia
+                               he took photos of Tibetan highlands and of the Himalayas. The rest of the flight was devoted to taking care of the
+                                main systems and sleep. 
+                          </p>
+                </div>
+
+            </div>
+            <div class="col no-gutters">
+                <div class="rightside">
+                    <h3 class="timelineTextColors">Flight six</h3>
+                    <iframe width="725" height="550" class="vid" src="https://www.youtube.com/embed/SOk_ijElMfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    </body>
+</html>

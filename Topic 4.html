@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html" > Home</a></li>
+                <li><a href="Topics.html" class="active"> Topic</a></li>
+                <li><a href="TimeLine.html"> TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                 </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section>
+            <div class="row no-gutters">
+                <div class="col no-gutters">
+                    <div class="leftside">
+                        <img src="images/Aurora_7_patch.png" alt="image_not_found" style="width:100px;height:100px;"> <!--mission patch[1]-->                    
+                        <h2>Aroura 7</h2>                    
+                        <p>On May 24, 1962, 12:45:16 UTC astronaut Scott Carpenter launched into space aboard the spacecraft aroura 7 on an Atlas 
+                            rocket. The mission flight plan was to be very similar to the earlier flight of only three months before of Friendship 7.
+                         </p>
+                            <h4>The flight</h4>
+                            <p>
+                                The vehicle performed very well during the flight, except for one anomaly where one of the sustainer engine's 
+                                hydraulic switches moved to the abort position during flight. This was fixed as a sensor detected the error and 
+                                correct pressure levels until after Sustainer Engine Cut-Off. The vehicle performed such a good job that it
+                                 actually exceeded its orbit parameters. During orbit, he expressed concern over his ability to consume food 
+                                 as he had made a mess of it in the cockpit and it was getting into ventilation. This did not cause any issues 
+                                 later on. During the mission John glen flew around the earth three times in 4.5 hours. During the landing 
+                                 Carpenter overshot his target by 400km this was due to human error. 
+                            </p>
+    
+                              <h4>Mission objects </h4>
+                              <p>
+                                The main mission objective was to conduct experiments on liquids In a weightless environment. The second objective
+                                 was to conduct observations of the earth from space. And to try to detect a flare from the ground, these were 
+                                 successful, except for locating the flare. 
+                              </p>
+                    </div>
+    
+                </div>
+                <div class="col no-gutters">
+                    <div class="rightside">
+                        <h3 class="timelineTextColors">Flight four</h3>
+                        <iframe width="725" height="550" class="vid" src="https://www.youtube.com/embed/6xqOUWjLHao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <!---nav section-->
+    <section class="NavBar">
+        <nav>
+            <ul>
+                <li><a href="Home.html"> Home</a></li>
+                <li><a href=""class="active"> Topic</a></li>
+                <li><a href="TimeLine.html" > TimeLine</a></li>
+                <!---setting-->
+                <div class="search-container">
+                    <!--<form action="/action_page.php">--> 
+                       <input type="text" placeholder="Search.." name="search">
+                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                   </div>
+                 </div>
+                <!---serch bar need to be implemented somehow-->
+            </ul>
+        </nav>
+    </section>
+    <section >
+        <nav>
+            <img class ="center" src="images/source.gif" alt="Image_not_found" style="width:100px;height:100px;">
+            <ul class="navBar2">
+                <li><a href="Topic 1.html"> Freedom 7</a></li> <!--topic selctor-->
+                <li><a href="Topic 2.html"> Liberty bell 7</a></li>
+                <li><a href="Topic 3.html"> Friendship 7</a></li>
+                <li><a href="Topic 4.html"> Aroura <br>7</a></li>
+                <li><a href="Topic 5.html"> Sigma <br>7</a></li>
+                <li><a href="Topic 6.html"> Faith <br> 7</a></li>
+                
+ 
+            </ul>
+        </nav>
+    </section>
+    
+
+    <section class="credits">
+            <p class="credits">website made by Arran Logan-Riley. Contact: <br> <a href="plazmapie335@gmail.com">Email</a> </p> <!---credits-->
+        </section>
+        <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button> <!---Dark mode button-->
+    </body>
+</html>
