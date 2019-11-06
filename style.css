@@ -273,3 +273,14 @@ body.light-mode {
   }
 
 /*dark mode switcher that dosnt work*/ 
+
+
+.previous {
+  background-color: #474e5d;
+  color: rgb(255, 255, 255);
+}
+
+.next {
+  background-color: #474e5d;
+  color: white;
+}
