@@ -277,7 +277,7 @@ body.light-mode {
 
 .previous { /*previous and next button code*/ 
   background-color: #474e5d;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); 
 }
 
 .next {
@@ -285,6 +285,17 @@ body.light-mode {
   color: white;
 }
 
+
+@media screen and (max-width: 600px){ /*making the next and previous buttons responsive, does not work for some reason*/ 
+.next{
+  width: 60px; 
+}
+}
+@media screen and (max-width: 600px){
+  .previous{
+    width: 60px;
+  }
+}
 
 @media screen and (max-width: 600px) { /*should push the slidshow images down, dosnt work though becuase the website is split into two*/
   .slideshow-container{

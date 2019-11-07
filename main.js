@@ -2,17 +2,17 @@ function findTopic() {
     var userinput = document.getElementById("search").value; //gets the user input and sets it to userinput 
     //figure out how to put it to uppercase
     if(userinput == "Freedom 7"){
-        window.location.pathname = "Topic 1.html" //sends the user to "topic 1" if they type in the correct input 
+        window.location.pathname = "Topic-1.html" //sends the user to "topic 1" if they type in the correct input 
     }else if(userinput == "Liberty Bell 7"){
-        window.location.pathname = "Topic 2.html"
+        window.location.pathname = "Topic-2.html"
     }else if(userinput == "Friendship 7"){
-        window.location.pathname = "Topic 3.html"
+        window.location.pathname = "Topic-3.html"
     }else if(userinput == "Aurora 7"){
-        window.location.pathname = "Topic 4.html"
+        window.location.pathname = "Topic-4.html"
     }else if(userinput == "Sigma 7"){
-        window.location.pathname = "Topic 5.html"
+        window.location.pathname = "Topic-5.html"
     } else if(userinput == "Faith 7"){
-        window.location.pathname = "Topic 6.html"
+        window.location.pathname = "Topic-6.html"
     }
 }
 
