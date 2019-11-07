@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src='main.js'></script>
     </head>
     <body>
          <!---nav section-->
@@ -19,8 +20,8 @@
                 <!---setting-->
                 <div class="search-container">
                     <!--<form action="/action_page.php">--> 
-                       <input type="text" placeholder="Search for a topic" name="search">
-                       <button onclick="findTopic()" id="serch" type="submit"><i class="fa fa-search"></i></button>
+                        <input id="search" type="text" placeholder="Search for a topic" name="search">
+                        <button onclick="findTopic()" type="submit"><i class="fa fa-search"></i></button>
                      </form>
                    </div>
                  </div>
@@ -65,7 +66,7 @@
 
         </div>
     </section>
-    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button>
+    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Dark/Light</button> <!---dark/night-->
     <a href="Topic 2.html" class="next">Next &raquo;</a> <!---next button-->
 
     </body>
